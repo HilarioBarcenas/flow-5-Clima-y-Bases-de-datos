@@ -86,10 +86,10 @@ Enlaces de apoyo para las configuraciones:
 - Por lo general grafana nos da el usuario y contraseña a lo cual la dejamos por default o podremos cambiar pues que nos pedirá que cambiemos la contraseña predeterminada.
 - Agremos una nueva fuente de información haciendo click en el boton Data Source.
 - En los campos agregamos
- - Host: localhost:3306
-  - Database: nombre de la base de datos
-  - User & Password: Nombre de usuario y contraseña.
-  - Session TimeZone: -05:00
+    - Host: localhost:3306
+    - Database: nombre de la base de datos
+    - User & Password: Nombre de usuario y contraseña.
+    - Session TimeZone: -05:00
 - Una vez iniciada sesión damos click en el bodon Add panel para agregar un nuevo panel.
 - Cambiamos el diseño del gráfico para que se adapte a nuestras necesidades recordando que cada gráfico tiene requisitos.
 - Para que la gráfica funcione, en la parte de abajo veremos que tenemos la opción MySQL (que agregamops en el Data Source), lo seleccionamos si no lo está y modificamos la instrucción que tenemos por default para hacer una nueva consulta. Por ejemplo si necesitamos saber la temperatura de los integrantes activos en el broker, modificamos el Query a `FROM Clima Timer Colum fecha Metric Column nombre SELECT column: temperatura`.
