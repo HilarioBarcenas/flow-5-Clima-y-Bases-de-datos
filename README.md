@@ -109,6 +109,7 @@ Estos pasos lo hacemos reemplazando cada una de las gráficas de NodeRed.
 ### Evidencias
 
 [YouTube](https://youtu.be/yonDjBt2Nt0)
+
 [YouTube](https://youtu.be/x-0UTFE3Gow)
 ### Créditos
 **Desarrollado por** `Hilario Barcenas`
